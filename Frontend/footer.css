@@ -1,0 +1,44 @@
+h3 {
+    color: rgb(230, 217, 217);
+    text-decoration: none;
+    
+}
+
+.container {
+    background-color: black;
+    
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    cursor: pointer;
+    
+    text-decoration: none;
+}
+
+#two {
+    color: white;
+   
+}
+.container-my-5{
+    width: auto;
+    background-color: black;
+    color: black;
+}
+footer{
+    margin-left: 15%;
+}
+a{
+    color: white;
+}
+#kids>a{
+    color: white;
+    text-decoration: none;
+}
+

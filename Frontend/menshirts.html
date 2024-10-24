@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/5f8da4e4de.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hubballi&family=Lobster&family=Sansita+Swashed:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        h3 {
+            color: rgb(230, 217, 217);
+            text-decoration: none;
+            margin-left: 39px;
+        }
+
+        .container {
+            background-color: black;
+            text-align: center;
+
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            cursor: pointer;
+            color: red;
+        }
+
+        #two {
+            color: white;
+            text-align: center;
+        }
+
+
+        img {
+            height: 200px;
+            width: 200px;
+            margin-left: 10%;
+
+        }
+
+        h1 {
+            margin-left: -2%;
+        }
+
+        button {
+            color: black;
+            text-decoration: solid;
+            background-color: darkgoldenrod;
+            width: 200px;
+            height: 30px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: yellow;
+        }
+
+        h3 {
+            color: rgb(234, 228, 228);
+            text-decoration: none;
+            margin-left: 39px;
+        }
+
+        .container {
+            background-color: black;
+            text-align: center;
+        }
+        .card{
+            border: 2px solid black;
+            background-color: blanchedalmond;
+            border-radius: 30px;
+        }
+        .row{
+            margin: 2%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="lg" id="img">E</div>
+          <div class="navbar" id="logo">E-commerce</div>
+          <form>
+            <input class="search" id="navbar-search" type="text" placeholder="Product name,Category name,etc.">
+          </form>
+          <button class="search" id="search-button">Search</button>
+          <!-- <button  class="search" id="search-button">Search</button> -->
+          <!-- </form> -->
+          <button id="login">
+            <a href="login.html">Login</a>
+          </button>
+          <button id="cart">
+            <i class="fa-solid fa-cart-shopping"><a href="cart.html"></a></i>
+          </button>
+          </a>
+          </li>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul id="secnav" class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link"  id="home" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="all_products.html">All Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" href="all_products.html">Women</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="hoodies.html">All Products</a>
+                <a class="dropdown-item" href="Dress.html">Dresses</a>
+                <a class="dropdown-item" href="pants.html">Pants</a>
+                <a class="dropdown-item" href="skirts.html">Skirts</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" href="all_products.html">Men</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="home.html">All Products</a>
+                <a class="dropdown-item" href="menshirts.html">Shirts</a>
+                <a class="dropdown-item" href="menpants.html">Pants</a>
+                <a class="dropdown-item" href="hoodies.html">Hoodies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menpants.html">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact us</a>
+            </li>
+          </ul>
+      </header>
+
+    <div class="carasol" data-ride="carousel">
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh3.webp" alt="first-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Red Dress
+                        </h4>
+                        <p class="card-text">Rs 659</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh2.webp" alt="second-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Black Pants
+                        </h4>
+                        <p class="card-text">Rs 1499</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh1.webp" alt="third-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Cargos
+                        </h4>
+                        <p class="card-text">Rs 899</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh4.webp" alt="fourth-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Blue Top
+                        </h4>
+                        <p class="card-text">Rs 999</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh3.webp" alt="first-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Red Dress
+                        </h4>
+                        <p class="card-text">Rs 659</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh2.webp" alt="second-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Black Pants
+                        </h4>
+                        <p class="card-text">Rs 1499</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh1.webp" alt="third-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Cargos
+                        </h4>
+                        <p class="card-text">Rs 899</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh5.webp" alt="fourth-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Blue Top
+                        </h4>
+                        <p class="card-text">Rs 999</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh4.webp" alt="first-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Red Dress
+                        </h4>
+                        <p class="card-text">Rs 659</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh3.webp" alt="second-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Black Pants
+                        </h4>
+                        <p class="card-text">Rs 1499</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh2.webp" alt="third-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Cargos
+                        </h4>
+                        <p class="card-text">Rs 899</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:300px">
+                    <div class="card-img-top" style="width:400px">
+                        <img src="sh1.webp" alt="fourth-slide">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Blue Top
+                        </h4>
+                        <p class="card-text">Rs 999</p>
+                        <button>Add to cart<i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-my-5">
+
+        <footer class="text-center text-lg-start text-white" style="background-color: black">
+
+            <div class="container p-4 pb-0">
+
+                <section class="">
+
+                    <div class="row">
+
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h3 class="text-uppercase">Women</h3>
+
+                            <ul class="list-unstyled-mb-0">
+                                <li>
+                                    <a href="Dress.html" class="text-white">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="pants.html" class="text-white">Pants</a>
+                                </li>
+                                <li>
+                                    <a href="skirts.html" class="text-white">Skirts</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div id="men" class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h3 class="text-uppercase">Men</h3>
+
+                            <ul class="list-unstyled-mb-0">
+                                <li>
+                                    <a href="menshirts.html" class="text-white">Shirts</a>
+                                </li>
+                                <li>
+                                    <a href="menpants.html" class="text-white">Pants</a>
+                                </li>
+                                <li>
+                                    <a href="hoodies.html" class="text-white">Hoodies</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="kids" class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h3 id="kids" class="text-uppercase"><a href="#">Kids</a></h3>
+
+                        </div>
+
+                        <div id="links" class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <h3 class="text-uppercase">Links</h3>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="home.html" class="text-white">Home</a>
+                                </li>
+                                <li>
+                                    <a href="login.html" class="text-white">Login</a>
+                                </li>
+                                <li>
+                                    <a href="contactus.html" class="text-white">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </section>
+                <br>
+                
+                <hr>
+
+
+
+                <!-- Copyright -->
+                <div id="two" class="text-center p-3" style="background-color: rgba(37, 34, 34, 0.2)">
+                    Copyright ©Ecommerce 2022-23
+
+                </div>
+
+        </footer>
+
+    </div>
+</body>
+</html>
